@@ -1,5 +1,5 @@
 {
-  "name": "vue-webpack-base",
+  "name": "vue3-webpack-base",
   "version": "0.0.1",
   "description": "Like my React Webpack base, but for Vue.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuigoto/vue-webpack-base.git"
+    "url": "git+https://github.com/yuigoto/vue3-webpack-base.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "Fabio Y. Goto <lab@yuiti.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuigoto/vue-webpack-base/issues"
+    "url": "https://github.com/yuigoto/vue3-webpack-base/issues"
   },
-  "homepage": "https://github.com/yuigoto/vue-webpack-base#readme",
+  "homepage": "https://github.com/yuigoto/vue3-webpack-base#readme",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.1.4",
     "@vue/component-compiler-utils": "^3.2.2",

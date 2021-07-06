@@ -1,4 +1,4 @@
-# `vue-webpack-base` | Autores
+# `vue3-webpack-base` | Autores
 
     - **AuthorName** (emailAddress) - Local - _Função_
 

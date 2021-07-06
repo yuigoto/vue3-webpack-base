@@ -1,4 +1,4 @@
-# `vue-webpack-base`
+# `vue3-webpack-base`
 
 > Projeto inspirado no boilerplate do Vue, no `create-react-app`, porém sem todo o overhead e convenções do mesmo, ficando apenas com um único `webpack.config.js` para resolver os problemas.
 
