@@ -16,7 +16,7 @@
     "javascript",
     "boilerplate",
     "webpack",
-    "svelte"
+    "vue"
   ],
   "author": "Fabio Y. Goto <lab@yuiti.dev>",
   "license": "MIT",
