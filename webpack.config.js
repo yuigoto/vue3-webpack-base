@@ -138,6 +138,40 @@ const THE_CWD = process.cwd();
           loader: "vue-loader",
         },
       },
+      
+      // JavaScript e Módulos JS
+      {
+        test: /\.(js|mjs)$/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: [
+              [
+                "@babel/preset-env",
+                {
+                  targets: {
+                    browsers: [
+                      "last 2 Chrome versions",
+                      "last 2 Firefox versions",
+                      "last 2 Safari versions",
+                      "last 2 iOS versions",
+                      "last 1 Android version",
+                      "last 1 ChromeAndroid version",
+                      // Usando isso aqui `regenerator-runtime` dá pau:
+                      // "ie 11"
+                    ],
+                  },
+                },
+              ]
+            ],
+            plugins: [
+              "dynamic-import-node",
+              "@babel/plugin-transform-runtime",
+              "@babel/plugin-proposal-class-properties",
+            ],
+          },
+        }
+      },
 
       {
         test: /\.(sa|sc|c)ss$/,
